@@ -1,3 +1,10 @@
+"=============================================================================
+" FILE: plugin/vim_codic.vim
+" AUTHOR: Yasuharu Sawada <yasuharu519@gmail.com>
+" Last Change: 2015 Oct 18
+" License: MIT license
+"=============================================================================
+
 scriptencoding utf-8
 if exists('g:loaded_vim_codic') && g:loaded_vim_codic
     finish

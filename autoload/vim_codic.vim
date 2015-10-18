@@ -1,3 +1,10 @@
+"=============================================================================
+" FILE: autoload/vim_codic.vim
+" AUTHOR: Yasuharu Sawada <yasuharu519@gmail.com>
+" Last Change: 2015 Oct 18
+" License: MIT license
+"=============================================================================
+
 scriptencoding utf-8
 
 let s:save_cpo = &cpo
