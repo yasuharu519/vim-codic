@@ -55,7 +55,7 @@ function! vim_codic#get_translated_text(text)
                 \ 'Authorization' : 'Bearer ' . g:vim_codic_access_token }
     let data = {
                 \ 'text' : a:text,
-                \ 'casing' : 'camel' }
+                \ 'casing' : g:vim_codic_casing }
     try
         let response = s:HTTP.get(s:endpoint . s:translate_api, data, header)
     catch /.*/
